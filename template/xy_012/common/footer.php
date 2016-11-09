@@ -60,7 +60,7 @@
 				
 						<div class="footer_bottom_holder">
 			<div class="footer_bottom">
-							<div>Powered by <strong><a href="http://www.dongnuo.org" target="_blank">dongnuo</a></strong> Copyright &copy; <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a> 	<!--{if $_G['setting']['icp']}-->( <a href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}--> 
+							<div>Powered by <strong><a href="http://www.dongnuo.org" target="_blank">dongnuo</a></strong> Copyright &copy; 	<!--{if $_G['setting']['icp']}-->( <a href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}--> 
 				<!--{hook/global_footerlink}-->
 				<!--{if $_G['setting']['statcode']}-->$_G['setting']['statcode']<!--{/if}--> 
 					</div>
