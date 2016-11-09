@@ -128,31 +128,3 @@ function showContactMap() {
 	}
 }
 
-var no_ajax_pages = [];
-var root = '/satellite/';
-var theme_root = '/satellite/wp-content/themes/satellite/';
-var parallax_speed = 1;
-
-	        no_ajax_pages.push('/satellite/product/tablet-with-docking-station/');	
-	        no_ajax_pages.push('/satellite/product/digital-sampler-workstation/');	
-	        no_ajax_pages.push('/satellite/product/quad-core-smartphone/');	
-	        no_ajax_pages.push('/satellite/product/stylish-earbud-headphones/');	
-	        no_ajax_pages.push('/satellite/product/ultraslim-tablet/');	
-	        no_ajax_pages.push('/satellite/product/smartphone-watch/');	
-	        no_ajax_pages.push('/satellite/product/unibody-smartphone/');	
-	        no_ajax_pages.push('/satellite/product/wireless-headphones/');	
-	        no_ajax_pages.push('/satellite/product/47-cinema-3d-led-tv/');	
-	        no_ajax_pages.push('/satellite/product/ultralight-laptop-computer/');	
-	        no_ajax_pages.push('/satellite/product/unibody-time-capsule/');	
-	        no_ajax_pages.push('/satellite/product/premium-gold-smartphone-2/');	
-			no_ajax_pages.push('/satellite/shop/');
-			no_ajax_pages.push('/satellite/cart/');
-			no_ajax_pages.push('/satellite/checkout/');
-			no_ajax_pages.push('/satellite/checkout/pay/');
-			no_ajax_pages.push('/satellite/checkout/order-received/');
-			no_ajax_pages.push('/satellite/my-account/');
-			no_ajax_pages.push('/satellite/my-account/edit-address/');
-			no_ajax_pages.push('/satellite/my-account/view-order/');
-			no_ajax_pages.push('');
- 
-		no_ajax_pages.push('');
