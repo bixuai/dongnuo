@@ -1,0 +1,66 @@
+<!--{template common/header}-->
+<!--[name]高端简洁响应式_新闻频道[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+</div>
+<div class="content_inner  " style="position: relative; visibility: visible; display: block;">
+				
+						
+			<div class="title2">
+										<div class="title_holder" style="opacity: 1;">
+					<div class="container">
+						<div class="container_inner clearfix">
+							<h1 >$cat[catname]</h1>
+							<span class="subtitle"><a href="$_G[setting][navs][1][filename]">{lang portal}</a> / 
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a> / <!--{/loop}-->
+		$cat[catname]</div>
+					</div>
+				</div>
+					</div>
+		
+		
+		<div class="container">
+		<div class="container_inner clearfix" style="padding-top:30px;">
+								<div class="blog_holder blog_small_layout">
+						 <!--{eval $i = 0;}-->										
+<!--{loop $list['list'] $value}-->
+ <!--{eval $i++;}-->
+				<!--{eval $highlight = article_title_style($value);}-->
+<!--{eval $news = C::t('portal_article_count')->fetch($value[aid]);}--> 
+															<article class="standard">
+			<div class="post_info">
+				<div class="inner">
+					<div class="post_date">
+						<span class="date">$i</span>
+						<span class="month">Num</span>
+					</div>
+					<div class="blog_like">
+						<a class="qode-like" href="portal.php?mod=view&aid=$value[aid]"><span class="qode-like-count">$news[viewnum]</span></a>					</div>
+					<div class="blog_share"><span class="social_share_holder"><span class="social_share_icon">$news[commentnum]</span></span></div>				</div>
+			</div>
+			<div class="post_content_holder">
+									<div class="post_image">
+						<div class="inner">
+							 <!--{if $value[pic]}--><a href="portal.php?mod=view&aid=$value[aid]" target="_blank"><img src="$value[pic]" alt="$value[title]" width="300" height="230"/></a><!--{else}--><a href="portal.php?mod=view&aid=$value[aid]" target="_blank"><img src="template/xy_012/set/nopic.jpg" alt="$value[title]" width="300" height="230"/></a><!--{/if}-->
+						</div>
+					</div>
+								<div class="post_text">
+					<div class="inner">
+						<h2 style="color:#0079FF; font-size:38px; line-height:44px;"><a href="portal.php?mod=view&aid=$value[aid]" target="_blank" $highlight>$value[title]</a></h2>
+						<span class="post_infos">In <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a> | On $value[dateline]</span>  
+						<p>$value[summary]</p>
+					</div>
+				</div>
+			</div>
+		</article>
+	<!--{/loop}-->
+
+																									<div class="pagination"><!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}--></div>
+											</div>
+					</div>
+	</div>
+		
+	</div>
+
+<!--{template common/footer}-->

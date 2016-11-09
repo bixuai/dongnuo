@@ -1,0 +1,57 @@
+<!--{template common/header}-->
+<!--[name]高端简洁响应式_产品频道[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+</div>
+<div class="content_inner  " style="position: relative; visibility: visible; display: block;">
+				
+						
+			<div class="title2">
+										<div class="title_holder" style="opacity: 1;">
+					<div class="container">
+						<div class="container_inner clearfix">
+							<h1 >$cat[catname]</h1>
+							<span class="subtitle"><a href="$_G[setting][navs][1][filename]">{lang portal}</a> / 
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a> / <!--{/loop}-->
+		$cat[catname]</div>
+					</div>
+				</div>
+					</div>
+		
+		
+		<div class="container">
+			<div class="container_inner clearfix">
+				
+				
+				<div class="projects_holder_outer">
+                                                                <!--{if $cat[subs]}-->
+                                                                <div class="filter_holder2">
+                                                                <ul>
+                            <li class="filter active"><span>$cat[catname]</span></li>
+                                                                <!--{loop $cat[subs] $value}-->
+				<li class="filter"><a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li><!--{eval $i--;}-->
+				<!--{/loop}-->
+                                                                </ul>
+                                                                </div>
+                                                                <!--{/if}-->
+                                                                <div class="projects_holder clearfix v3">
+                                                                
+                                                                <!--{loop $list['list'] $value}-->
+
+				<!--{eval $highlight = article_title_style($value);}-->
+                                                                <article style="display: inline-block; opacity: 1; " class="mix"><div class="image_holder"><span class="image"> <!--{if $value[pic]}--><img src="$value[pic]" alt="$value[title]" width="350" height="265"/><!--{else}--><img src="template/xy_012/set/nopic.jpg" alt="$value[title]" width="350" height="265"/><!--{/if}--></span><span class="text_holder"><span class="text_outer"><span class="text_inner"><a rel="prettyPhoto[pretty_photo_gallery]" class="lightbox" title="Reduced Simplicity" <!--{if $value[pic]}-->href="$value[pic]"<!--{else}-->href="template/xy_012/set/nopic.jpg"<!--{/if}--> data-rel="prettyPhoto[pretty_photo_gallery]"><span></span></a><a class="preview" href="portal.php?mod=view&aid=$value[aid]"><span></span></a></span></span></span></div><div class="portfolio_description"><h5><a href="portal.php?mod=view&aid=$value[aid]" target="_blank" $highlight>$value[title]</a></h5></div></article>
+	<!--{/loop}-->
+<div class="filler"></div>
+<div class="filler"></div>
+<div class="filler"></div>
+</div><div class="portfolio_paging"><!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}--></div></div>
+<div class="separator transparent" style="margin-top:25px;margin-bottom:25px;"></div>
+																											
+		</div>
+	</div>
+	</div>
+		
+	</div>
+
+<!--{template common/footer}-->

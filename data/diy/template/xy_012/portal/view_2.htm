@@ -1,0 +1,53 @@
+<!--{template common/header}-->
+
+</div>
+<div class="content_inner  " style="position: relative; visibility: visible; display: block;">
+				
+						
+			<div class="title2">
+										<div class="title_holder" style="opacity: 1;">
+					<div class="container">
+						<div class="container_inner clearfix">
+							<h1 >$cat[catname]</h1>
+							<span class="subtitle"><!--{loop $cat[ups] $value}-->
+			<a href="{echo getportalcategoryurl($value[catid])}">$value[catname]</a> / 
+		<!--{/loop}-->
+		<a href="{echo getportalcategoryurl($cat[catid])}">$cat[catname]</a> / 
+		{lang view_content}</div>
+					</div>
+				</div>
+					</div>
+		
+		
+		<div class="container">
+		<div class="container_inner clearfix" style="padding-top:30px;">
+        <div class="blog_holder v2 blog_single">
+								<article class="gallery">
+				
+				<div class="post_content_holder" style="width:100%">
+					
+					<div class="post_text">
+						<div class="inner">
+							<h2 style="text-align:center; color:#0079FF; font-size:38px; font-weight:normal; line-height:48px;">$article[title] <!--{if $article['status'] == 1}-->({lang moderate_need})<!--{elseif $article['status'] == 2}-->({lang ignored})<!--{/if}--></h2>
+							<span class="post_infos" style="text-align:center">$article[dateline]&nbsp;&nbsp;{lang view_views}: <em id="_viewnum"><!--{if $article[viewnum] > 0}-->$article[viewnum]<!--{else}-->0<!--{/if}--></em> 
+					<!--{if $_G['group']['allowmanagearticle'] || ($_G['group']['allowpostarticle'] && $article['uid'] == $_G['uid'] && (empty($_G['group']['allowpostarticlemod']) || $_G['group']['allowpostarticlemod'] && $article['status'] == 1)) || $categoryperm[$value['catid']]['allowmanage']}-->
+						 <a href="portal.php?mod=portalcp&ac=article&op=edit&aid=$article[aid]">{lang edit}</a>
+						<!--{if $article[status]>0 && ($_G['group']['allowmanagearticle'] || $categoryperm[$value['catid']]['allowmanage'])}-->
+							 <a href="portal.php?mod=portalcp&ac=article&op=verify&aid=$article[aid]" id="article_verify_$article[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang moderate}</a>
+						<!--{else}-->
+							<a href="portal.php?mod=portalcp&ac=article&op=delete&aid=$article[aid]" id="article_delete_$article[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang delete}</a>
+						<!--{/if}-->
+					<!--{/if}--></span>
+							
+$content[content]			
+					</div>
+				</div>
+                <!--{if $multi}--><div class="ptw pbw cl" >$multi</div><!--{/if}-->
+
+			</article>
+            </div>
+	</div>
+		
+	</div>
+
+<!--{template common/footer}-->

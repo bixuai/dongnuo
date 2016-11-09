@@ -1,0 +1,576 @@
+.ls-container {
+	POSITION: relative; VISIBILITY: hidden
+}
+.ls-lt-container {
+	POSITION: absolute
+}
+.ls-lt-container {
+	TEXT-ALIGN: left !important; DIRECTION: ltr !important
+}
+.ls-lt-container * {
+	TEXT-ALIGN: left !important; DIRECTION: ltr !important
+}
+.ls-container-fullscreen {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 2% !important; MARGIN: 0px auto; PADDING-LEFT: 2% !important; PADDING-RIGHT: 2% !important; BACKGROUND: black; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2% !important; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px
+}
+.ls-container-fullscreen .ls-thumbnail-wrapper {
+	DISPLAY: none !important
+}
+.ls-container-fullscreen .ls-fullscreen {
+	DISPLAY: none !important
+}
+.ls-container-fullscreen .ls-shadow {
+	DISPLAY: none !important
+}
+.ls-overflow-hidden {
+	OVERFLOW: hidden
+}
+.ls-inner {
+	Z-INDEX: 2; POSITION: relative; BACKGROUND-POSITION: center center
+}
+.ls-loading-container {
+	Z-INDEX: 3 !important; POSITION: absolute !important; DISPLAY: none; TOP: 50% !important; LEFT: 50% !important
+}
+.ls-loading-indicator {
+	MARGIN: 0px auto
+}
+.ls-inner {
+	WIDTH: 100%; HEIGHT: 100%
+}
+.ls-layer {
+	WIDTH: 100%; HEIGHT: 100%
+}
+.ls-layer {
+	POSITION: absolute; DISPLAY: none; BACKGROUND-POSITION: center center; OVERFLOW: hidden
+}
+.ls-active {
+	DISPLAY: block !important
+}
+.ls-animating {
+	DISPLAY: block !important
+}
+.ls-layer > * {
+	POSITION: absolute; LINE-HEIGHT: normal; MARGIN: 0px; TOP: 0px; LEFT: 0px
+}
+.ls-layer .ls-bg {
+	TOP: 50%; LEFT: 50%
+}
+.ls-yourlogo {
+	Z-INDEX: 99; POSITION: absolute
+}
+.ls-bar-timer {
+	Z-INDEX: 4; BORDER-BOTTOM: #555 2px solid; POSITION: absolute; FILTER: alpha(opacity=55); WIDTH: 0px; BACKGROUND: white; HEIGHT: 2px; TOP: 0px; opacity: .55
+}
+.ls-circle-timer {
+	Z-INDEX: 4; POSITION: absolute; FILTER: alpha(opacity=65); WIDTH: 24px; DISPLAY: none; HEIGHT: 24px; TOP: 10px; RIGHT: 10px; opacity: .65
+}
+.ls-ct-half {
+	BACKGROUND: white
+}
+.ls-ct-center {
+	BACKGROUND: #444
+}
+.ls-ct-left {
+	WIDTH: 50%; HEIGHT: 100%; OVERFLOW: hidden
+}
+.ls-ct-right {
+	WIDTH: 50%; HEIGHT: 100%; OVERFLOW: hidden
+}
+.ls-ct-left {
+	POSITION: relative; FLOAT: left
+}
+.ls-ct-right {
+	POSITION: relative; FLOAT: left
+}
+.ls-ct-rotate {
+	POSITION: absolute; WIDTH: 200%; HEIGHT: 100%; TOP: 0px
+}
+.ls-ct-left .ls-ct-rotate {
+	LEFT: 0px
+}
+.ls-ct-right .ls-ct-hider {
+	LEFT: 0px
+}
+.ls-ct-right .ls-ct-half {
+	LEFT: 0px
+}
+.ls-ct-right .ls-ct-rotate {
+	RIGHT: 0px
+}
+.ls-ct-left .ls-ct-hider {
+	RIGHT: 0px
+}
+.ls-ct-left .ls-ct-half {
+	RIGHT: 0px
+}
+.ls-ct-hider {
+	POSITION: absolute; TOP: 0px
+}
+.ls-ct-half {
+	POSITION: absolute; TOP: 0px
+}
+.ls-ct-hider {
+	WIDTH: 50%; HEIGHT: 100%; OVERFLOW: hidden
+}
+.ls-ct-half {
+	WIDTH: 200%; HEIGHT: 100%
+}
+.ls-ct-center {
+	POSITION: absolute; WIDTH: 40%; HEIGHT: 40%; TOP: 30%; LEFT: 30%
+}
+.ls-ct-half {
+	border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px
+}
+.ls-ct-center {
+	border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px
+}
+.ls-bottom-nav-wrapper {
+	HEIGHT: 0px
+}
+.ls-bottom-slidebuttons {
+	TEXT-ALIGN: left
+}
+.ls-bottom-nav-wrapper {
+	Z-INDEX: 2; POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px auto; HEIGHT: 0px
+}
+.ls-below-thumbnails {
+	Z-INDEX: 2; POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px auto; HEIGHT: 0px
+}
+.ls-below-thumbnails {
+	Z-INDEX: 6; DISPLAY: none
+}
+.ls-bottom-nav-wrapper A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+.ls-nav-prev {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+.ls-nav-next {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+* .ls-bottom-nav-wrapper * {
+	DIRECTION: ltr !important
+}
+* .ls-bottom-nav-wrapper SPAN * {
+	DIRECTION: ltr !important
+}
+.ls-bottom-slidebuttons {
+	Z-INDEX: 1000; POSITION: relative
+}
+.ls-bottom-slidebuttons {
+	POSITION: relative
+}
+.ls-nav-start {
+	POSITION: relative
+}
+.ls-nav-stop {
+	POSITION: relative
+}
+.ls-nav-sides {
+	POSITION: relative
+}
+.ls-nothumb {
+	TEXT-ALIGN: center !important
+}
+.ls-link {
+	BACKGROUND-IMAGE: url(blank.gif); POSITION: absolute; WIDTH: 100% !important; HEIGHT: 100% !important; TOP: 0px !important; LEFT: 0px !important
+}
+.ls-layer > A > * {
+	BACKGROUND-IMAGE: url(blank.gif)
+}
+.ls-vpcontainer {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.ls-videopreview {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; CURSOR: pointer; LEFT: 0px
+}
+.ls-playvideo {
+	POSITION: absolute; TOP: 50%; CURSOR: pointer; LEFT: 50%
+}
+.ls-tn {
+	DISPLAY: none !important
+}
+.ls-thumbnail-hover {
+	POSITION: absolute; DISPLAY: none; LEFT: 0px
+}
+.ls-thumbnail-hover-inner {
+	POSITION: absolute; WIDTH: 100%; DISPLAY: none; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.ls-thumbnail-hover-bg {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.ls-thumbnail-hover-img {
+	POSITION: absolute; OVERFLOW: hidden
+}
+.ls-thumbnail-hover IMG {
+	POSITION: absolute; DISPLAY: inline-block; MAX-WIDTH: none !important; VISIBILITY: visible !important; TOP: 0px; LEFT: 50%
+}
+.ls-thumbnail-hover SPAN {
+	POSITION: absolute; BORDER-BOTTOM-COLOR: transparent !important; WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; BORDER-RIGHT-COLOR: transparent !important; BORDER-LEFT-COLOR: transparent !important; TOP: 100%; LEFT: 50%
+}
+.ls-thumbnail-wrapper {
+	Z-INDEX: 4; POSITION: relative; MARGIN: 0px auto; WIDTH: 100%
+}
+.ls-thumbnail {
+	POSITION: relative; MARGIN: 0px auto
+}
+.ls-thumbnail-inner {
+	WIDTH: 100%
+}
+.ls-thumbnail-slide-container {
+	WIDTH: 100%
+}
+.ls-thumbnail-slide-container {
+	POSITION: relative; OVERFLOW: hidden !important
+}
+.ls-touchscroll {
+	OVERFLOW-X: auto !important
+}
+.ls-thumbnail-slide {
+	POSITION: relative; TEXT-ALIGN: center; WHITE-SPACE: nowrap; FLOAT: left
+}
+.ls-thumbnail-slide A {
+	POSITION: relative; WIDTH: 0px; DISPLAY: inline-block; HEIGHT: 0px; OVERFLOW: hidden
+}
+.ls-thumbnail-slide IMG {
+	MAX-WIDTH: none !important; HEIGHT: 100%; VISIBILITY: visible !important; MAX-HEIGHT: 100% !important
+}
+.ls-shadow {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 100%; DISPLAY: none; VISIBILITY: hidden; OVERFLOW: hidden !important; TOP: 100%; LEFT: 0px
+}
+.ls-shadow IMG {
+	POSITION: absolute !important; WIDTH: 100% !important; BOTTOM: 0px !important; HEIGHT: auto !important; LEFT: 0px !important
+}
+.ls-bottom-nav-wrapper {
+	VISIBILITY: hidden
+}
+.ls-thumbnail-wrapper {
+	VISIBILITY: hidden
+}
+.ls-nav-prev {
+	VISIBILITY: hidden
+}
+.ls-nav-next {
+	VISIBILITY: hidden
+}
+.ls-wp-fullwidth-container {
+	POSITION: relative; WIDTH: 100%
+}
+.ls-wp-fullwidth-helper {
+	POSITION: absolute
+}
+.ls-overflow-hidden {
+	OVERFLOW: hidden
+}
+.ls-lt-tile {
+	POSITION: relative; FLOAT: left; perspective: 500px; -o-perspective: 500px; -ms-perspective: 500px; -moz-perspective: 500px; -webkit-perspective: 500px
+}
+.ls-lt-tile IMG {
+	DISPLAY: inline-block; VISIBILITY: visible
+}
+.ls-curtiles {
+	OVERFLOW: hidden
+}
+.ls-curtiles {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.ls-nexttiles {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.ls-curtile {
+	POSITION: absolute; WIDTH: 100% !important; HEIGHT: 100% !important; OVERFLOW: hidden
+}
+.ls-nexttile {
+	POSITION: absolute; WIDTH: 100% !important; HEIGHT: 100% !important; OVERFLOW: hidden
+}
+.ls-curtile {
+	TOP: 0px; LEFT: 0px
+}
+.ls-curtile IMG {
+	POSITION: absolute; FILTER: inherit
+}
+.ls-nexttile IMG {
+	POSITION: absolute; FILTER: inherit
+}
+.ls-3d-container {
+	POSITION: relative; OVERFLOW: visible !important; perspective: 1000px; -o-perspective: 1000px; -ms-perspective: 1000px; -moz-perspective: 1000px; -webkit-perspective: 1000px
+}
+.ls-3d-box {
+	POSITION: absolute; TOP: 50%; LEFT: 50%; transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -webkit-transform-style: preserve-3d
+}
+.ls-3d-box DIV {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #777; OVERFLOW: hidden; PADDING-TOP: 0px; transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -webkit-transform-style: preserve-3d
+}
+.ls-fullscreen {
+	Z-INDEX: 10; POSITION: absolute; DISPLAY: block; CURSOR: pointer
+}
+HTML * .ls-nav-prev {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+HTML * .ls-nav-next {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+HTML * .ls-container IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+HTML * .ls-bottom-nav-wrapper A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+HTML * .ls-container .ls-fullscreen {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+BODY * .ls-nav-prev {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+BODY * .ls-nav-next {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+BODY * .ls-container IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+BODY * .ls-bottom-nav-wrapper A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+BODY * .ls-container .ls-fullscreen {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+#ls-global * .ls-nav-prev {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+#ls-global * .ls-nav-next {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+#ls-global * .ls-container IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+#ls-global * .ls-bottom-nav-wrapper A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+#ls-global * .ls-container .ls-fullscreen {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+HTML * .ls-thumbnail A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+BODY * .ls-thumbnail A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+#ls-global * .ls-thumbnail A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; transition: none; -o-transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none
+}
+HTML * .ls-container IMG {
+	BORDER-BOTTOM: 0px; MIN-WIDTH: 0px !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MAX-WIDTH: none !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; border-radius: 0px; box-shadow: none
+}
+BODY * .ls-container IMG {
+	BORDER-BOTTOM: 0px; MIN-WIDTH: 0px !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MAX-WIDTH: none !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; border-radius: 0px; box-shadow: none
+}
+#ls-global * .ls-container IMG {
+	BORDER-BOTTOM: 0px; MIN-WIDTH: 0px !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MAX-WIDTH: none !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; border-radius: 0px; box-shadow: none
+}
+HTML * .ls-wp-container .ls-layer > * {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY * .ls-wp-container .ls-layer > * {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+#ls-global * .ls-wp-container .ls-layer > * {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.ls-wp-fullwidth-container {
+	BOX-SIZING: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box
+}
+.ls-wp-fullwidth-helper {
+	BOX-SIZING: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box
+}
+.ls-container {
+	BOX-SIZING: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box
+}
+.ls-container * {
+	BOX-SIZING: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box
+}
+HTML * .ls-yourlogo {
+	MARGIN: 0px
+}
+BODY * .ls-yourlogo {
+	MARGIN: 0px
+}
+#ls-global * .ls-yourlogo {
+	MARGIN: 0px
+}
+HTML * .ls-tn {
+	DISPLAY: none
+}
+BODY * .ls-tn {
+	DISPLAY: none
+}
+#ls-global * .ls-tn {
+	DISPLAY: none
+}
+.site {
+	OVERFLOW: visible !important
+}
+.ls-debug-console * {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: left !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; LINE-HEIGHT: normal !important; FONT-STYLE: normal !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; FONT-FAMILY: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif !important; COLOR: white !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important; text-shadow: none; -webkit-font-smoothing: antialiased
+}
+.ls-debug-console H1 {
+	FONT-SIZE: 17px !important; FONT-WEIGHT: bold !important; PADDING-TOP: 10px !important
+}
+.ls-debug-console H1:first-child {
+	PADDING-TOP: 0px !important
+}
+.ls-debug-console UL {
+	LIST-STYLE-TYPE: none !important; LIST-STYLE-IMAGE: none !important; PADDING-TOP: 10px !important
+}
+.ls-debug-console LI {
+	POSITION: relative !important; MARGIN-LEFT: 10px !important; FONT-SIZE: 13px !important; FONT-WEIGHT: normal !important
+}
+HTML * .ls-debug-console LI UL {
+	WIDTH: 260px; DISPLAY: none; LEFT: -10px
+}
+BODY * .ls-debug-console LI UL {
+	WIDTH: 260px; DISPLAY: none; LEFT: -10px
+}
+#ls-global * .ls-debug-console LI UL {
+	WIDTH: 260px; DISPLAY: none; LEFT: -10px
+}
+.ls-debug-console LI UL {
+	POSITION: absolute !important; PADDING-BOTTOM: 10px !important; PADDING-LEFT: 0px !important; BOTTOM: 100% !important; PADDING-RIGHT: 10px !important; BACKGROUND: white; PADDING-TOP: 10px !important; border-radius: 10px; box-shadow: 0px 0px 20px black
+}
+HTML * .ls-debug-console LI:hover UL {
+	DISPLAY: block
+}
+BODY * .ls-debug-console LI:hover UL {
+	DISPLAY: block
+}
+#ls-global * .ls-debug-console LI:hover UL {
+	DISPLAY: block
+}
+.ls-debug-console LI UL * {
+	COLOR: black !important
+}
+.ls-debug-console A {
+	BORDER-BOTTOM: white 1px dotted; TEXT-DECORATION: none !important
+}
+.ls-error {
+	POSITION: relative !important; PADDING-BOTTOM: 30px !important; PADDING-LEFT: 80px !important; WIDTH: auto !important; PADDING-RIGHT: 40px !important; BACKGROUND: white; HEIGHT: auto !important; COLOR: white !important; PADDING-TOP: 20px !important; border-radius: 5px; -moz-border-radius: 5px; box-shadow: 0px 2px 20px -5px black; -wenkit-border-radius: 5px
+}
+.ls-error P {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: justify !important; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px !important; LINE-HEIGHT: normal !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; FONT-FAMILY: Arial, sans-serif !important; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px !important; text-shadow: none
+}
+.ls-error .ls-error-title {
+	LINE-HEIGHT: 40px !important; COLOR: red !important; FONT-SIZE: 16px !important; FONT-WEIGHT: bold !important
+}
+.ls-error .ls-error-text {
+	COLOR: #555 !important; FONT-SIZE: 13px !important; FONT-WEIGHT: normal !important
+}
+.ls-error .ls-exclam {
+	POSITION: absolute !important; TEXT-ALIGN: center !important; LINE-HEIGHT: 40px !important; WIDTH: 40px !important; BACKGROUND: red; HEIGHT: 40px !important; COLOR: white !important; FONT-SIZE: 30px !important; TOP: 20px !important; FONT-WEIGHT: bold !important; LEFT: 20px !important; border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px
+}
+HTML * .ls-container .ls-shadow {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-layer > * {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-fullscreen {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-webkit-hack {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-3d-container {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-lt-container {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-lt-container * {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-thumbnail-wrapper {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-bottom-nav-wrapper {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-shadow {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-layer > * {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-fullscreen {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-webkit-hack {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-3d-container {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-lt-container {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-lt-container * {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-thumbnail-wrapper {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+BODY * .ls-container .ls-bottom-nav-wrapper {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-shadow {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-layer > * {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-fullscreen {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-webkit-hack {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-3d-container {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-lt-container {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-lt-container * {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-thumbnail-wrapper {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+#ls-global * .ls-container .ls-bottom-nav-wrapper {
+	backface-visibility: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: translateZ(0px); -o-transform: translateZ(0px); -ms-transform: translateZ(0px); -moz-transform: translateZ(0px); -webkit-transform: translateZ(0px)
+}
+HTML * .ls-container .ls-video-layer {
+	backface-visibility: visible; -moz-backface-visibility: visible; transform: none; -moz-transform: none
+}
+BODY * .ls-container .ls-video-layer {
+	backface-visibility: visible; -moz-backface-visibility: visible; transform: none; -moz-transform: none
+}
+#ls-global * .ls-container .ls-video-layer {
+	backface-visibility: visible; -moz-backface-visibility: visible; transform: none; -moz-transform: none
+}
+HTML * .ls-container .ls-layer IFRAME {
+	backface-visibility: visible; -moz-backface-visibility: visible; transform: none; -moz-transform: none
+}
+BODY * .ls-container .ls-layer IFRAME {
+	backface-visibility: visible; -moz-backface-visibility: visible; transform: none; -moz-transform: none
+}
+#ls-global * .ls-container .ls-layer IFRAME {
+	backface-visibility: visible; -moz-backface-visibility: visible; transform: none; -moz-transform: none
+}
+HTML * .ls-container .ls-webkit-hack {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+BODY * .ls-container .ls-webkit-hack {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+#ls-global * .ls-container .ls-webkit-hack {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}

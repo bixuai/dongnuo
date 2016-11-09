@@ -1,0 +1,42 @@
+﻿/** portal::index **/
+
+
+/** end **/
+
+/** forum::index **/
+.fl{ border:0px; background:none repeat scroll 0 0 transparent; }
+.fl .bm{ border:1px solid #CCCCCC; margin-bottom:10px; box-shadow:0 2px 0 0 #eeeeee; }
+.fl .bm_h, .bm_h{ border:0px; height:40px; line-height:40px;border-bottom:1px solid #cccccc; box-shadow:0 1px 0 #E8E8E8; background:url({STYLEIMGDIR}/bm_h.gif) repeat-x scroll 0 0 transparent }
+
+.bmw .bm_h a{ font-size:16px; color:#333; font-weight: normal;}
+.fl_g dd,.fl_g em{ color: #888888;}
+
+/** end **/
+
+/** forum::forumdisplay **/
+.tl .th, .tl .th tr{background:none repeat scroll 0 0 #F8F8F8;}
+.tl th, .tl td{ border-bottom:1px solid #EEEEEE;padding:8px 0px;}
+.tl .tf{ padding:5px 0px;}
+.tl .tf a{ padding:6px; background-color:#ffffff; border:1px solid #dfdfdf}
+.tl .tf a.xw1{ background-color:#129ce7; color:#FFFFFF; border:1px solid #129ce7;}
+.tl .tf a.showmenu{ padding-right:16px;}
+.bml{ border:0px solid #EBEBEB; }
+.bm_h{ border:0px; height:40px; font-size:14px;line-height:40px;border-bottom:1px solid #cccccc; box-shadow:0 1px 0 #E8E8E8; background:url({STYLEIMGDIR}/bm_h.gif) repeat-x scroll 0 0 transparent }
+/** end **/
+
+/** forum::viewthread **/
+.pls{ background:none repeat scroll 0 0 #F8F8F8; border-right:1px solid #DDDDDD;}
+.ad .pls{ background:none repeat scroll 0 0 #DDDDDD}
+.ad .plc{ background:none repeat scroll 0 0 #F2F2F2}
+.pls .avatar, #f_pst .avatar {
+    background: url({STYLEIMGDIR}/user_bg.gif) no-repeat scroll center bottom transparent;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.pls .avatar img, .bui, .bui .m img {
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+	padding:0px;
+}
+.ad .plc{ background:none repeat scroll 0 0 #F2F2F2;}
+/** end **/
