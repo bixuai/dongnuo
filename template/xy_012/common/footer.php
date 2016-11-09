@@ -1,4 +1,4 @@
-<?php echo '高端简洁响应式企业';exit;?>
+<?php exit;?>
 	</div>
 <!--{if empty($topic) || ($topic[usefooter])}-->
 	<!--{eval $focusid = getfocus_rand($_G[basescript]);}-->
@@ -60,9 +60,9 @@
 				
 						<div class="footer_bottom_holder">
 			<div class="footer_bottom">
-							<div>Powered by <strong><a href="http://www.comsenz.com" target="_blank">Discuz!</a></strong> <em>$_G['setting']['version']</em> Copyright &copy; <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a> 	<!--{if $_G['setting']['icp']}-->( <a href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}--> 
+							<div>Powered by <strong><a href="http://www.dongnuo.org" target="_blank">dongnuo</a></strong> Copyright &copy; <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a> 	<!--{if $_G['setting']['icp']}-->( <a href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}--> 
 				<!--{hook/global_footerlink}-->
-				<!--{if $_G['setting']['statcode']}-->$_G['setting']['statcode']<!--{/if}--> <a href="http://bbwuyu.taobao.com" target="_blank">加田小店</a></div>
+				<!--{if $_G['setting']['statcode']}-->$_G['setting']['statcode']<!--{/if}--> 
 					</div>
 		</div>
 			</footer>

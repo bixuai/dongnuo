@@ -1,4 +1,4 @@
-<?php echo '¼ÓÌïÐ¡µê';exit;?>
+<?php exit;?>
 <!--{subtemplate common/header_common}-->
 	<meta name="application-name" content="$_G['setting']['bbname']" />
 	<meta name="msapplication-tooltip" content="$_G['setting']['bbname']" />
